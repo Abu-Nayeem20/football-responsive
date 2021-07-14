@@ -48,10 +48,12 @@ img{
 .menu ul li a:first-child{
     padding-left: 5px;
 }
-.menu-bar{
+.menu-bar,
+.menu-close{
     display: none;
 }
-.menu-bar .fa-bars{
+.menu-bar .fa-bars,
+.menu-close i{
     font-size: 20px;
     color: #fff;
     cursor: pointer;
@@ -162,7 +164,7 @@ img{
 
 /*=------Highlights Styles------=*/
 .f-highlights{
-    padding: 80px 0;
+    padding: 30px 0 80px;
 }
 .highlights-content{
     grid-column-gap: 60px;
